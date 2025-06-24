@@ -14,7 +14,7 @@ public class Usuario {
 
     private String email;
 
-    private LocalDate dataNascimento;
+    // private LocalDate dataNascimento;
 
     //#endregion
 
@@ -53,12 +53,12 @@ public class Usuario {
         this.email = email;
     }
 
-    public LocalDate getDataNascimento() {
-        return dataNascimento;
-    }
+    // public LocalDate getDataNascimento() {
+    //     return dataNascimento;
+    // }
 
-    public void setDataNascimento(LocalDate dataNascimento) {
-        this.dataNascimento = dataNascimento;
-    }
+    // public void setDataNascimento(LocalDate dataNascimento) {
+    //     this.dataNascimento = dataNascimento;
+    // }
     //#endregion
 }

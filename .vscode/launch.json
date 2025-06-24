@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CrudUsuarioApplication<crud_usuario>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.frontend.crud_usuario.CrudUsuarioApplication",
+            "projectName": "crud_usuario",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
