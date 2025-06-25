@@ -17,7 +17,7 @@
     <div class="row mx-5">
       
       <div class="col mb-3">
-          <a href="" class="btn btn-primary">Novo usuário</a>
+          <a th:href="@{/retornarUsuarios/novo}" class="btn btn-primary">Novo usuário</a>
       </div>
 
       
@@ -40,7 +40,7 @@
                 <td th:text="${usuario.telefone}"></td>
                 <td th:text="${usuario.email}"></td>
                 <td>
-                    <a href="" class="btn btn-warning">Editar</a>
+                    <a th:href="@{/retornarUsuarios/editar/{id}(id=${usuario.id})}" class="btn btn-warning">Editar</a>
                     <a href="" class="btn btn-danger">Excluir</a>
                 </td>
             </tr>
