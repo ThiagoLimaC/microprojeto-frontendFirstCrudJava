@@ -70,5 +70,14 @@ public class UsuarioController {
         return "redirect:/retornarUsuarios";
     }
     
+    @GetMapping("/retornarUsuarios/deletar/{id}")
+    public String deletarUsuario(@PathVariable Integer id){
+        RestTemplate restTemplate = new RestTemplate();
+        String url = "http://localhost:8083/api/usuarios/" + id;
+
+        restTemplate.delete(url);
+
+        return "redirect:/retornarUsuarios";
+    }
 
 }
